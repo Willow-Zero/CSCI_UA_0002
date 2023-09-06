@@ -8,3 +8,5 @@ NOTES FOR COMP PROG
 			how to think like a computer scientist - http://openbookproject.net/thinkcs/python/english3e/
 			python for everybody - https://www.py4e.com/html3/01-intro
 			myprogramminglab - https://mlm.pearson.com/northamerica/myprogramminglab/
+		prof is romanian - spec. from transylvania
+		
