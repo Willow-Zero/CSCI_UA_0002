@@ -1,75 +1,75 @@
 NOTES FOR COMP PROG  
-	- day 1  
-		- schedule is [here](https://cs.nyu.edu/courses/fall23/CSCI-UA.0003-001/)  
-			- SOMEONE NEEDS TO TELL THIS GUY CSS HAS MORE COLORS THAN JUST YELLOW	FOR WANS SAKE  
-		- syllabus is [here](https://cs.nyu.edu/elearning/CSCI_UA_0002/common_syllabus.php)  
-		- books:  
-			- Starting Out with Python (5th Edition) * by Tony Gaddis ISBN-13: 9780136912330  
-			- [how to think like a computer scientist](http://openbookproject.net/thinkcs/python/english3e/)  
-			- [python for everybody](https://www.py4e.com/html3/01-intro)  
-			- [myprogramminglab](https://mlm.pearson.com/northamerica/myprogramminglab/)  
-		- prof is [romanian](https://en.wikiversity.org/wiki/Romanian_Language) - spec. from transylvania  
-		- this class is the second sectuion, meetindg a day after the first, so increase all dates by 1  
-		- admin matters  
-			- learn to write programs, and solve problems  
-			- CS is like math, info is sequential  
-			- could be more difficult than a typical "intro"  
-			- code should be clear - use comments and properly name variables (this is @ you zero, youre bad at that)  
-			- no ai (ai isnt even fuckin good at that), ai is cheating  
-			- seek help toward understanding, not solution  
-		- 1st concepts!!!  
-			-hardware  
-			- software  
-				- OS  
-				- utility software  
-				- spoftware dev tools  
-				- app software  
-					- word processing  
-					- spreadsheet  
-					- database  
-					- presentation  
-			- because of cloud, ppl often lose track of programs  
-			- 8 bits = byte  
-				- bits can be on and off  
-				- byte is 1 ASCII character  
-					- i tend to use UTF-8 when i can tho so thats kinda irrelevant  
-				- powers of 2 are super important  
-				- largest byte val is 255  
-					- we start @ 0  
-				- 2 bytes can do 65535  
-			- cpus are limited and machine code isnt always compatible between cpus  
-			- if you write poorly, things will go badly  
-			- assembly uses short words (mnemonics) and is basically machine code, its just one level up  
-				- you write A Lot in assembly  
-			- low level languages  
-				- often specific to the computer  
-				- hard  
-			- high level langs  
-				- generqal purpose  
-				- more abstracted  
-				- easier  
-				- often produces larger binaries than assembly  
-				- examples:  
-					- python  
-					- C  
-					- C++  
-					- Java  
-					- PERL  
-					- JS  
-					- LISP  
-					- etc.  
-				- keywords are reserved for the language  
-			- python  
-				- its an interpreted languages  
-				- it gets transalated to assembly/machine code  
-				- many languages have to compile, python does that at runtime  
-				- syntax error is a misspelling or uncorrect operator or smth  
-				- compiler translates to binary  
-				- interpreter interptets on the fly, which is how python works  
-				- python is high level, designed to be human readable, doesnt scale up very well, but it can call other languages easily. its very popular for teaching bc of its ease of use  
-				- was started by Guido van Rossum, who apparently likes Monty Python  
-				- interactive mode waits for statements, then executes  
-				- script mode reads a file  
-				- helps to be able to understand concpepts without *looking* for the answer  
-		- quizzes on brightspace
-		- 
+- day 1  
+	- schedule is [here](https://cs.nyu.edu/courses/fall23/CSCI-UA.0003-001/)  
+		- SOMEONE NEEDS TO TELL THIS GUY CSS HAS MORE COLORS THAN JUST YELLOW	FOR WANS SAKE  
+	- syllabus is [here](https://cs.nyu.edu/elearning/CSCI_UA_0002/common_syllabus.php)  
+	- books:  
+		- Starting Out with Python (5th Edition) * by Tony Gaddis ISBN-13: 9780136912330  
+		- [how to think like a computer scientist](http://openbookproject.net/thinkcs/python/english3e/)  
+		- [python for everybody](https://www.py4e.com/html3/01-intro)  
+		- [myprogramminglab](https://mlm.pearson.com/northamerica/myprogramminglab/)  
+	- prof is [romanian](https://en.wikiversity.org/wiki/Romanian_Language) - spec. from transylvania  
+	- this class is the second sectuion, meetindg a day after the first, so increase all dates by 1  
+	- admin matters  
+		- learn to write programs, and solve problems  
+		- CS is like math, info is sequential  
+		- could be more difficult than a typical "intro"  
+		- code should be clear - use comments and properly name variables (this is @ you zero, youre bad at that)  
+		- no ai (ai isnt even fuckin good at that), ai is cheating  
+		- seek help toward understanding, not solution  
+	- 1st concepts!!!  
+		-hardware  
+		- software  
+			- OS  
+			- utility software  
+			- spoftware dev tools  
+			- app software  
+				- word processing  
+				- spreadsheet  
+				- database  
+				- presentation  
+		- because of cloud, ppl often lose track of programs  
+		- 8 bits = byte  
+			- bits can be on and off  
+			- byte is 1 ASCII character  
+				- i tend to use UTF-8 when i can tho so thats kinda irrelevant  
+			- powers of 2 are super important  
+			- largest byte val is 255  
+				- we start @ 0  
+			- 2 bytes can do 65535  
+		- cpus are limited and machine code isnt always compatible between cpus  
+		- if you write poorly, things will go badly  
+		- assembly uses short words (mnemonics) and is basically machine code, its just one level up  
+			- you write A Lot in assembly  
+		- low level languages  
+			- often specific to the computer  
+			- hard  
+		- high level langs  
+			- generqal purpose  
+			- more abstracted  
+			- easier  
+			- often produces larger binaries than assembly  
+			- examples:  
+				- python  
+				- C  
+				- C++  
+				- Java  
+				- PERL  
+				- JS  
+				- LISP  
+				- etc.  
+			- keywords are reserved for the language  
+		- python  
+			- its an interpreted languages  
+			- it gets transalated to assembly/machine code  
+			- many languages have to compile, python does that at runtime  
+			- syntax error is a misspelling or uncorrect operator or smth  
+			- compiler translates to binary  
+			- interpreter interptets on the fly, which is how python works  
+			- python is high level, designed to be human readable, doesnt scale up very well, but it can call other languages easily. its very popular for teaching bc of its ease of use  
+			- was started by Guido van Rossum, who apparently likes Monty Python  
+			- interactive mode waits for statements, then executes  
+			- script mode reads a file  
+			- helps to be able to understand concpepts without *looking* for the answer  
+	- quizzes on brightspace
+	- 
