@@ -4,7 +4,7 @@ NOTES FOR COMP PROG
 		- SOMEONE NEEDS TO TELL THIS GUY CSS HAS MORE COLORS THAN JUST YELLOW	FOR WANS SAKE  
 	- syllabus is [here](https://cs.nyu.edu/elearning/CSCI_UA_0002/common_syllabus.php)  
 	- books:  
-		- Starting Out with Python (5th Edition) * by Tony Gaddis ISBN-13: 9780136912330  
+		- Starting Out with Python (5th Edition) by *Tony Gaddis* ISBN-13: 9780136912330  
 		- [how to think like a computer scientist](http://openbookproject.net/thinkcs/python/english3e/)  
 		- [python for everybody](https://www.py4e.com/html3/01-intro)  
 		- [myprogramminglab](https://mlm.pearson.com/northamerica/myprogramminglab/)  
@@ -72,4 +72,25 @@ NOTES FOR COMP PROG
 			- script mode reads a file  
 			- helps to be able to understand concpepts without *looking* for the answer  
 	- quizzes on brightspace
+- day 2
+	- tutor: sg799@nyu.edu
+	- to convert, divide by 2, taking the quotient and remainder. remainder is the digit, quotient carries on and gets divided again
+	- fractionals you x2, then take the whole and carry over decimal
+	- jumping in raw doesnt help in long term
+		- you need an understanding of dev steps
+		- larger portion of time designing than on code itself
+		- before you do all the Programming shit, you need to design the gd program
+		- all programs should have a fucking readme. like seriously. every proggram. every script in the program should have at least a sentence on them
+		- Design
+			- break the program down into the smallest possible steps
+			- list those steps
+			- use pseudocode! its fun! ur basically sketching the program.
+				- just creates a model program
+			- use flowcharts 
+				- graphically represents the program
+				- kinda bullshit imo but it can be a good visual organizational approach ig
+		- high level languages -> assembly -> machine code
+- day 3
+	- i already know abt loops n vars n shit lol
+- day 4
 	- 
