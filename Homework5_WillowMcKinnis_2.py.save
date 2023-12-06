@@ -1,0 +1,105 @@
+import turtle as t
+import math as m
+import random as r
+t.colormode(255)
+
+def body(color,width):
+    t.left(90)
+    t.color(color)
+    t.width(width)
+    t.forward(100)
+    
+def head(type):
+    i=0
+    t.right(90)
+    if type == 1:
+        t.circle(50)
+    if type == 2:
+        t.forward(50)
+        while i<=type:
+            t.left(120)
+            t.forward(100)
+            i+=1
+        t.backward(50)
+    if type == 3:
+        t.forward(45)
+        t.left(90)
+        t.forward(90)
+        t.left(90)
+        t.forward(90)
+        t.left(90)
+        t.forward(90)
+        t.left(90)
+        t.forward(45)
+    if type == 4:
+        t.forward(30)
+        t.left(60)
+        t.forward(60)
+        t.left(60)
+        t.forward(60)
+        t.left(60)
+        t.forward(60)
+        t.left(60)
+        t.forward(60)
+        t.left(60)
+        t.forward(60)
+        t.left(60)
+        t.forward(30)        
+    if type == 5:
+        t.forward(30)
+        t.left(90)
+        t.forward(30)
+        t.left(45)
+        t.forward(25)
+        t.left(45)
+        t.forward(25)
+        t.left(45)
+        t.forward(25)
+        t.left()
+    if type == 6:
+        t.up()
+        t.left(90)
+        t.forward(60)
+        t.left(90)
+        t.down()
+        angle = (180-25.714)
+        t.left(angle/2)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle/2)
+    if type == 7:
+        angle = (180-25.714)
+        t.left(angle/2)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle)
+        t.forward(85)
+        t.left(angle/2)
+
+
+body((r.randrange(256),r.randrange(256),r.randrange(256)),r.randrange(10))
+head(5)
+
+
+
+t.mainloop()
